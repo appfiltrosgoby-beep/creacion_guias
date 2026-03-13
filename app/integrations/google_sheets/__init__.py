@@ -1,0 +1,1 @@
+"""Conector de Google Sheets."""
