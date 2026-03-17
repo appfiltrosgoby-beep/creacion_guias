@@ -85,7 +85,7 @@ class PackingService:
 
         notes = [
             "La automatización de la transportadora queda preparada como siguiente fase.",
-            "Google Sheets y base de datos usan un adaptador mock hasta conectar credenciales reales.",
+            "Google Sheets y base de datos usan fallback mock si faltan credenciales o conexión.",
         ]
         if request.box_type:
             notes.append(f"Filtrado de caja aplicado: {request.box_type}.")

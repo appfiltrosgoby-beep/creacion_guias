@@ -10,6 +10,7 @@ class Settings(BaseSettings):
     default_source: str = "mock"
     google_sheet_id: str = ""
     google_service_account_file: str = ""
+    google_sheet_worksheet: str = ""
     database_url: str = "sqlite:///./guias.db"
     carrier_base_url: str = ""
     carrier_username: str = ""
